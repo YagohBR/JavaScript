@@ -1,19 +1,17 @@
 body {
-    background: white;
+    background: rgb(0, 0, 0);
 }
-
 .comeco {
     font-size: 30px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(0, 0, 0);
     margin-top: 0px;
+    color: white;
 }
-
 .introducao {
     text-align: center;
+    color: white;
 }
-
 .textintroducao {
     display: flex;
     padding: 50px;
@@ -21,6 +19,8 @@ body {
     text-align: justify;
     padding-left: 190px;
     padding-right: 190px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 .container {
    background-image: url("cr7logo.jpg");
@@ -33,14 +33,15 @@ body {
     justify-content: space-between;
     
 }
-.item{
+.item {
     padding: 10px;
     padding-left: 10px;
     padding-right: 10px;
 }
-.infancia{
+.infancia {
     padding-top: 50px;
     text-align: center;
+    color: white;
 }
 .textinfancia {
     display: flex;
@@ -48,6 +49,8 @@ body {
     text-align: justify;
     padding-left: 190px;
     padding-right: 190px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 .container2 {
     display: flex;
@@ -66,6 +69,7 @@ body {
 .estrelato{
     text-align: center;
     padding-top: 60px;
+    color: white;
 }
 .textestrelato{
     font-size: 20px;
@@ -73,6 +77,8 @@ body {
     display: flex;
     padding-left: 190px;
     padding-right: 190px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 .container3 {
     display: flex;
@@ -81,20 +87,19 @@ body {
     padding-bottom: 100px;
     padding-top: 20px;
     align-items: center;
-    
     justify-content: space-around;
-}
-.item3 {
-
 }
 .real {
     text-align: center;
+    color: white;
 }   
 .textreal {
     font-size: 20px;
     text-align: justify;
     padding-left: 190px;
     padding-right: 190px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 .container4 {
     display: flex;
@@ -106,24 +111,122 @@ body {
 }
 .conquistas {
     text-align: center;
+    color: white;
 }
 .textconquistas {
     font-size: 20px;
     text-align: justify;
     padding-left: 190px;
     padding-right: 190px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 .container5 {
     display: flex;
     align-items: center;
     padding-top: 30px;
-    justify-content: space-around;
+    justify-content: center;
     padding-bottom: 100px;
+}
+.item5 {
+    padding: 50px;
 }
 .personalidade {
     text-align: center;
-    padding-bottom: 200px;
+    color: white;
 }
-h1 {
+.textpersonalidade {
+    font-size: 20px;
+    text-align: justify;
+    padding-right: 190px;
+    padding-left: 190px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.container6 {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+.item6 {
+    padding: 10px;
+}
+.empreendedor {
     text-align: center;
+    color: white;
+}
+.textempreendedor {
+    text-align: justify;
+    font-size: 20px;
+    padding-right: 190px;
+    padding-left: 190px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.container7 {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+.item7 {
+    padding: 10px;
+}
+.legado {
+    text-align: center;
+    color: white;
+}
+.textlegado {
+    text-align: justify;
+    font-size: 20px;
+    padding-right: 190px;
+    padding-left: 190px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.container8 {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-around;
+    padding-bottom: 100px;  
+}
+.item8 {
+    padding: 10px;
+}
+hr {
+    border: none;
+    height: 2px;
+    background-color: #ffffff;
+    margin: 40px 0;
+  }
+.BIBLIOGRAFIA {
+    text-align: center;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+li {
+    color: white;
+}
+a {
+    color: rgb(0, 60, 255);
+    text-decoration: underline;
+    font-size: 20px;
+}
+.feito {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
 }
